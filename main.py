@@ -13,7 +13,7 @@ st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
 
 
-# show histgram of all colors
+# show histgram of all colorsas
 hist_red, _ = np.histogram(im[:, :, 0], bins=64)
 hist_green, _ = np.histogram(im[:, :, 1], bins=64)
 hist_blue, _ = np.histogram(im[:, :, 2], bins=64)
